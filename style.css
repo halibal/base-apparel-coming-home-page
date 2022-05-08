@@ -21,6 +21,7 @@ a {
 }
 
 body {
+    position: relative;
     min-height: 100vh;
     margin: 0;
     font-family: var(--ff-josefin);
@@ -48,6 +49,12 @@ h1 span {
 
 /* IDs */
 
+#alertMessage {
+    color: var(--clr-sred);
+    padding-left: 1.5em;
+    margin-bottom: 25%;
+}
+
 #email {
     border: none;
     background: none;
@@ -64,6 +71,7 @@ h1 span {
 #email:focus {
     outline: 0.1em solid rgb(206, 151, 151, 0.5);
 }
+
 
 /* Classes */
 
@@ -103,6 +111,13 @@ h1 span {
     flex-direction: row-reverse;
 }
 
+.exclamationMark {
+    display: none;
+    position: absolute;
+    top: 25%;
+    margin-right: 25%;
+}
+
 .imgDivDesktop {
     display: none;
 }
@@ -138,6 +153,14 @@ h1 span {
     cursor: pointer;
 }
 
+.wrongEmail {
+    outline: 0.1em solid var(--clr-sred);
+}
+
+.wrongEmail:focus {
+    outline: 0.1em solid var(--clr-sred) !important;
+}
+
 
 @media screen and (max-width:1440px) and (min-width:1100px) {
     body {
@@ -161,6 +184,10 @@ h1 span {
         margin: auto 10%;
     }
 
+    #alertMessage {
+        margin-bottom: 25%;
+    }
+
     .content p {
         text-align: start;
         line-height: 160%;
@@ -169,7 +196,6 @@ h1 span {
 
     .email {
         height: 3.5em;
-        margin-bottom: 25%;
     }
 
     .imgDivMobile {
@@ -214,6 +240,10 @@ h1 span {
         margin: auto 10%;
     }
 
+    #alertMessage {
+        margin-bottom: 25%;
+    }
+
     #womanDesktop {
         height: 100%;
         min-height: 800px;
@@ -229,7 +259,12 @@ h1 span {
 
     .email {
         height: 3.5em;
-        margin-bottom: 25%;
+    }
+
+    .exclamationMark {
+        position: absolute;
+        top: 30%;
+        margin-right: 25%;
     }
 
     .imgDivMobile {
