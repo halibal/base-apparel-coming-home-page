@@ -5,10 +5,136 @@
     --clr-sred: hsl(0, 93%, 68%);
     --clr-dgred: hsl(0, 6%, 24%);
 
-    --clr-grad1: linear(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-    --clr-grad2: linear(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+
+    --clr-grad1: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    --clr-grad2: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 
     --fs-16: 16px;
 
     --ff-josefin: 'Josefin Sans', sans-serif;
+}
+
+/* elements */
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: var(--ff-josefin);
+    background: var(--clr-grad1);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+}
+
+h1 span {
+    color: var(--clr-dred);
+    font-weight: 300;
+}
+
+
+/* IDs */
+
+#email {
+    border: none;
+    background: none;
+    color: var(--clr-dred);
+    width: 100%;
+    border-radius: 2em;
+    padding-left: 1.5em;
+}
+
+#email::placeholder {
+    color: rgb(206, 151, 151, 0.5);
+}
+
+
+/* Classes */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: var(--clr-dred);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.content p {
+    text-align: center;
+    color: var(--clr-dred);
+    line-height: 155%;
+    font-size: 0.9em;
+}
+
+.email {
+    position: relative;
+    margin-top: 25px;
+    width: 100%;
+    background: none;
+    border-radius: 2em;
+    height: 2.7em;
+    border: 0.1em solid rgb(206, 151, 151, 0.5);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imgDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.sendBtn {
+    background: var(--clr-grad2);
+    width: 5em;
+    height: 3.3em;
+    border-radius: 2em;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.sendBtn:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:800px) {
+    body {
+        background-image: url(./images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+    }
 }
