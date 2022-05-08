@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root {
+    --clr-dred: hsl(0, 36%, 70%);
+    --clr-sred: hsl(0, 93%, 68%);
+    --clr-dgred: hsl(0, 6%, 24%);
+
+    --clr-grad1: linear(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    --clr-grad2: linear(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+
+    --fs-16: 16px;
+
+    --ff-josefin: 'Josefin Sans', sans-serif;
+}
