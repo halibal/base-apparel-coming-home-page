@@ -11,8 +11,6 @@ This is a solution to the [Base Apparel Coming Soon Page on Frontend Mentor](htt
     - [Screenshot](#screenshot)
     - [Links](#links)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -36,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor | My Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-with-html-css-javascript-SkXfvCaH5)
+- Solution URL: [Frontend Mentor | My Solution](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-with-html-css-javascript-SJ3N3hBL9)
   
 - Live Site URL: [Halibal | Base Apparel Coming Soon Page](https://halibal.github.io/base-apparel-coming-home-page/)
 
@@ -45,10 +43,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - [JavaScript](https://www.javascript.com)
-
-### What I learned
-
-### Useful resources
 
 ## Author
 
