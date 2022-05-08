@@ -29,16 +29,16 @@ Users should be able to:
 
 ### Screenshot
 
-- ![Desktop Version]()
-- ![Desktop Version Active State]()
-- ![Mobile Version]()
-- ![Desktop Version Active State]()
+![Desktop Version](./images/desktop_default.png)
+![Desktop Version Active State](./images/desktop_active.png)
+![Mobile Version](./images/mobile_default.png)
+![Desktop Version Active State](./images/mobile_active.png)
 
 ### Links
 
 - Solution URL: [Frontend Mentor | My Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-with-html-css-javascript-SkXfvCaH5)
   
-- Live Site URL: [Halibal | Base Apparel Coming Soon Page](https://halibal.github.io/faq-accordion-card/)
+- Live Site URL: [Halibal | Base Apparel Coming Soon Page](https://halibal.github.io/base-apparel-coming-home-page/)
 
 ### Built with
 
